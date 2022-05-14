@@ -1,4 +1,4 @@
-# macroquad-wasm
+# mq-example
 
 A [macroquad](https://github.com/not-fl3/macroquad) plus WebAssembly template.
 
@@ -16,4 +16,10 @@ WebAssembly:
 ./setup_web.sh
 ./build_web.sh
 ./start_web.sh
+```
+
+Ubuntu dependencies:
+
+```bash
+sudo apt install pkg-config libx11-dev libxi-dev libgl1-mesa-dev libasound2-dev
 ```
