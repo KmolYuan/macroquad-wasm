@@ -1,0 +1,5 @@
+/.idea/
+/target/
+/docs/*
+!/docs/index.html
+*.lock
