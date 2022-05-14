@@ -1,6 +1,6 @@
 # mq-example
 
-A [macroquad](https://github.com/not-fl3/macroquad) plus WebAssembly template. ([Online demo](https://kmolyuan.github.io/mq-example/))
+A [macroquad](https://github.com/not-fl3/macroquad)-plus-WebAssembly template. ([Online demo](https://kmolyuan.github.io/mq-example/))
 
 Enhance UI system with [egui](https://github.com/emilk/egui).
 
