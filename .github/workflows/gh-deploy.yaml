@@ -85,9 +85,9 @@ jobs:
           files: ${{ matrix.asset_name }}.zip
       - if: github.ref == 'refs/heads/main' && matrix.asset_name == 'mq-example-wasm-unknown'
         name: Deploy to gh-pages
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+        uses: JamesIves/github-pages-deploy-action@4
         with:
-          ACCESS_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: ${{ matrix.artifact_name }}
-          CLEAN: true
+          token: ${{ secrets.PUBLISH_TOKEN }}
+          branch: gh-pages
+          folder: ${{ matrix.artifact_name }}
+          clean: true
